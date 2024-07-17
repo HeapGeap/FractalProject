@@ -1,0 +1,76 @@
+@startuml
+class WindowAfterGenericButton.GenerationController {
+- ResourceBundle resources
+- URL location
+- Button ExitMenuButton
+- Button HarterGenerationButton
+- Button KochGenerationButton
+- Button MandelbrotGenerationButton
+- Button SerpinskyGenerationButton
+~ void initialize()
+}
+class sample.Main {
++ {static} Stage prim
++ {static} Parent root
++ {static} Scene MainScene
++ {static} URL MainSceneUrl
++ void start(Stage)
++ {static} void main(String[])
+}
+class sample.Controller {
+- Button GenerationMenuButton
+- Button ConfigMenuButton
+- Button ExitMenuButton
+- Button CreatorIdCard
+- Scene ConfigScene
+- Scene GenerationScene
+~ void initialize()
+}
+class WindowAfterConfigButton.ConfigController {
+- ResourceBundle resources
+- URL location
+- ImageView ConfigEndingPicture
+~ void initialize()
+}
+class CreatorsInfo.CreatorController {
+}
+class FractalsVisualisation.Mandelbrot {
++ void paint(Graphics)
+- void paintSet(Graphics,double,double,double,double)
+- int checkConvergence(double,double,int)
+}
+class FractalsVisualisation.SerpinskyTriangle {
+- {static} int PANEL_WIDTH
+- {static} int TRI_WIDTH
+- {static} int SIDE_GAP
+- {static} int TOP_GAP
+- int countTriangles
+~ Point top
+~ Point left
+~ Point right
++ void paint(Graphics)
+- void drawTriangle(Graphics,int,Point,Point,Point)
+- Point midpoint(Point,Point)
+}
+class FractalsVisualisation.Snowflake {
+~ Point a
+~ Point b
+~ Point a1
+~ Point b1
+~ Point a2
+~ Point b2
++ void paint(Graphics)
+- void drawKochLine(Graphics,Point,Point,double,int)
+}
+class FractalsVisualisation.Dragon {
++ void paintComponent(Graphics)
+- void drawDragon(int,int,int,int,int,Graphics)
+}
+
+
+javafx.application.Application <|-- sample.Main
+FractalsVisualisation.JPanel <|-- FractalsVisualisation.Mandelbrot
+FractalsVisualisation.JPanel <|-- FractalsVisualisation.SerpinskyTriangle
+FractalsVisualisation.JPanel <|-- FractalsVisualisation.Snowflake
+FractalsVisualisation.JPanel <|-- FractalsVisualisation.Dragon
+@enduml

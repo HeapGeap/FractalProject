@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WindowAfterGenericButton.GenerationController">
+    <children>
+        <ImageView fitHeight="750.0" fitWidth="970.0" layoutX="-20.0" layoutY="-7.0" pickOnBounds="true">
+            <image>
+                <Image url="@../assets/ScreenForm1.jpg" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-20.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ButtonsStyle.png" />
+         </image>
+         <effect>
+            <Bloom threshold="0.41" />
+         </effect>
+      </ImageView>
+      <Button fx:id="ExitMenuButton" layoutX="21.0" layoutY="441.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="На Главную" textFill="WHITE">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="66.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/HartersDragon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="HarterGenerationButton" layoutX="81.0" layoutY="171.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Дракон Хартера" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="119.0" fitWidth="137.0" layoutX="323.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Snowflake.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="KochGenerationButton" layoutX="330.0" layoutY="171.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Снежинка Коха" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="303.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/MandelbrotPic.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="MandelbrotGenerationButton" layoutX="302.0" layoutY="392.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Множество Мандельброта " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="499.0" layoutX="249.0" layoutY="-38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/GeometricTitleForGenerations.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="133.0" layoutX="581.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/SerpinskyTriangle.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="SerpinskyGenerationButton" layoutX="554.0" layoutY="171.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Треугольник Серпинского" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="57.0" fitWidth="303.0" layoutX="249.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/AlgebraicTitleForGenerations.png" />
+         </image>
+      </ImageView>
+    </children>
+</Pane>

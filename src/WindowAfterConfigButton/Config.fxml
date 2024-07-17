@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WindowAfterConfigButton.ConfigController">
+   <children>
+      <ImageView fx:id="ConfigEndingPicture" fitHeight="508.0" fitWidth="814.0" layoutX="-7.0" layoutY="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/2020-02-27-microsoft-edge-surf-game-1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

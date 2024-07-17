@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/ScreenForm1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="563.0" layoutX="119.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/AppTitle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="300.0" layoutX="285.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ButtonStyle.png" />
+         </image>
+         <effect>
+            <Bloom threshold="0.42" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="300.0" layoutX="285.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ButtonStyle.png" />
+         </image>
+         <effect>
+            <Bloom threshold="0.43" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="300.0" layoutX="285.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ButtonStyle.png" />
+         </image>
+         <effect>
+            <Bloom threshold="0.43" />
+         </effect>
+      </ImageView>
+      <Button fx:id="GenerationMenuButton" layoutX="340.0" layoutY="188.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="136.0" style="-fx-background-color: transparent;" text="Генерация" textFill="WHITE">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ConfigMenuButton" layoutX="345.0" layoutY="284.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="126.0" style="-fx-background-color: Transparent;" text="Настройки" textFill="#efefef">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ExitMenuButton" layoutX="345.0" layoutY="382.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="126.0" style="-fx-background-color: Transparent;" text="Выход" textFill="#fff9f9">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreatorIdCard" layoutX="-17.0" layoutY="463.0" mnemonicParsing="false" style="-fx-background-color: Transparent;" text="Creator Card" textFill="WHITE">
+         <font>
+            <Font name="Gabriola" size="25.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="740.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ver. 1.0">
+         <font>
+            <Font name="Gabriola" size="25.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
