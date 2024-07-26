@@ -15,3 +15,8 @@ Conceptually, there was also a settings section for the ability to zoom in and o
 ###
 
 <h2 align="center"> Objects that can be render : </h2>
+<div align="center">
+  <img align="left" height=50% width=40% src="https://github.com/HeapGeap/FractalProject/blob/master/assetsGit/Harter's_dragon_new.gif" />
+  <img align="center" height=55% width=40% src="https://github.com/HeapGeap/FractalProject/blob/master/assetsGit/delimiter.PNG" />
+  <img align="right" height=55% width=40% src="https://github.com/HeapGeap/FractalProject/blob/master/assetsGit/Koch_Snowflake.gif" />
+</div>
