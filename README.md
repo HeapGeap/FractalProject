@@ -39,5 +39,5 @@ Conceptually, there was also a settings section for the ability to zoom in and o
 <h2 align="center"> Get started </h2>  
 Required environment : Intellij idea (latest version), JavaFx library 16+.
 Follow steps below to start project : <br>
-◾ Run --> Edit Configurations --> Choose sample.Main as a starter --> Modify options --> add VM options --><br> Put {your path to lib} --add-modules {all modules from lib} ; <br>
+◾ Run --> Edit Configurations --> Choose sample.Main as a starter --> Modify options --> add VM options --><br> Put {your path to lib} --add-modules {all modules from lib}; <br>
 ◾ File --> Project Structure --> Libraries --> New project library --> Java --> add lib path to the field.
