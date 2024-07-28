@@ -19,7 +19,8 @@ Conceptually, there was also a settings section for the ability to zoom in and o
 <div align="center">
   <img align="left" height=50% width=50% src="https://github.com/HeapGeap/FractalProject/blob/master/assetsGit/Harter's_dragon_new.gif" />
   <img align="right" height=50% width=50% src="https://github.com/HeapGeap/FractalProject/blob/master/assetsGit/Koch_Snowflake.gif" />
-</div>
+  <br>
+</div><br>
 
 ###
 .
@@ -29,3 +30,14 @@ Conceptually, there was also a settings section for the ability to zoom in and o
   <img align="left" height=50% width=50% src="https://github.com/HeapGeap/FractalProject/blob/master/assetsGit/Serp_Triangle.gif" />
   <img align="right" height=50% width=50% src="https://github.com/HeapGeap/FractalProject/blob/master/assetsGit/Mandelbrot_set.gif" />
 </div>
+
+
+###
+
+
+
+<h2 align="center"> Get started </h2>  
+Required environment : Intellij idea (latest version), JavaFx library 16+.
+Follow steps below to start project : <br>
+◾ Run --> Edit Configurations --> Choose sample.Main as a starter --> Modify options --> add VM options --><br> Put {your path to lib} --add-modules {all modules from lib} ; <br>
+◾ File --> Project Structure --> Libraries --> New project library --> Java --> add lib path to the field.
